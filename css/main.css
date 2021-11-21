@@ -39,8 +39,9 @@
  * # base style overrides - (_document-setup.scss)
  *
  * ------------------------------------------------------------------- */
-html {
+ html {
   font-size: 10px;
+  zoom: 0.9; /* Old IE only */
 }
 
 @media only screen and (max-width:400px) {
@@ -54,6 +55,8 @@ html,
 body {
   height: 100%;  /* prevent horizontal scrolling */
   overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body {
@@ -1208,7 +1211,7 @@ input::-moz-focus-inner {
   background-color: transparent;
   padding: 0;
   margin: 0;
-  opacity: .35;
+  opacity: .35
 }
 
 .home-particles canvas {
