@@ -411,7 +411,7 @@ dd {
  * ## floated image - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 img.pull-right {
-  margin: 1.5rem 0 0 3rem;
+  margin: 1.5rem 0 0 2rem;
 }
 
 img.pull-left {
@@ -2089,7 +2089,6 @@ html.no-csstransitions .home-content__main {
 }
 
 .info-contact {
-  padding-top: 3rem;
   color: #FFFFFF;
 }
 
